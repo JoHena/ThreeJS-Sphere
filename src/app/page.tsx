@@ -4,7 +4,7 @@ import ComputerCanvas from '@/app/components/Computer/Computer'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <section className='h-screen w-full'>
+      <section className='h-screen w-full text-white font-bold'>
         <ComputerCanvas />
       </section>
     </main>
